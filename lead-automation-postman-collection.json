@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "d52b52de-114c-4db1-8b43-633429e80cfa",
+		"name": "Lead Automation System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50448139",
+		"_collection_link": "https://vingumanit-7350786.postman.co/workspace/Vin-Gumanit's-Workspace~fbb242f5-4fcd-4385-8626-b289d252a187/collection/50448139-d52b52de-114c-4db1-8b43-633429e80cfa?action=share&source=collection_link&creator=50448139"
+	},
+	"item": [
+		{
+			"name": "Facebook Lead Webhook Test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"leadgen_id\": \"123456789\",\r\n  \"ad_id\": \"987654321\",\r\n  \"form_id\": \"555444333\",\r\n  \"field_data\": [\r\n    {\r\n      \"name\": \"full_name\",\r\n      \"values\": [\"John Smith\"]\r\n    },\r\n    {\r\n      \"name\": \"email\",\r\n      \"values\": [\"john.smith@example.com\"]\r\n    },\r\n    {\r\n      \"name\": \"phone_number\",\r\n      \"values\": [\"+15551234567\"]\r\n    },\r\n    {\r\n      \"name\": \"service_interest\",\r\n      \"values\": [\"Roof Repair\"]\r\n    }\r\n  ],\r\n  \"created_time\": \"2024-12-01T10:30:00+0000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hook.eu2.make.com/g47qdn7l937jf11d35q5a9k5iubr8fxs",
+					"protocol": "https",
+					"host": [
+						"hook",
+						"eu2",
+						"make",
+						"com"
+					],
+					"path": [
+						"g47qdn7l937jf11d35q5a9k5iubr8fxs"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
