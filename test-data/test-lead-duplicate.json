@@ -1,0 +1,58 @@
+{
+  "leadgen_id": "555666777",
+  "ad_id": "987654321",
+  "form_id": "555444333",
+  "field_data": [
+    {
+      "name": "full_name",
+      "values": ["John Smith"]
+    },
+    {
+      "name": "email",
+      "values": ["john.smith@example.com"]
+    },
+    {
+      "name": "phone_number",
+      "values": ["+15551234567"]
+    },
+    {
+      "name": "service_interest",
+      "values": ["Solar Installation"]
+    }
+  ],
+  "created_time": "2024-12-01T14:30:00+0000"
+}
+```
+
+**Commit message:** `Add test data for duplicate detection scenario`
+
+---
+
+## ✅ Phase 1 Documentation Complete Checklist:
+
+After completing all steps above, you should have:
+
+- [ ] 6 screenshots uploaded to `screenshots/phase-1-webhook/`
+- [ ] Postman collection JSON uploaded to root
+- [ ] 3 test data files in `test-data/` folder
+- [ ] Professional commit messages for everything
+
+---
+
+## What Your Repository Should Look Like Now:
+```
+lead-automation-system/
+├── README.md
+├── lead-automation-postman-collection.json
+├── screenshots/
+│   └── phase-1-webhook/
+│       ├── 01-scenario-overview.png
+│       ├── 02-webhook-data-captured.png
+│       ├── 03-scenario-active.png
+│       ├── 04-postman-test-setup.png
+│       ├── 05-postman-response.png (optional)
+│       └── 06-scenario-in-list.png (optional)
+└── test-data/
+    ├── test-lead-basic.json
+    ├── test-lead-missing-email.json
+    └── test-lead-duplicate.json
